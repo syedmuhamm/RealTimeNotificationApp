@@ -6,7 +6,8 @@ body {
 }
 
 .container {
-  width: 50vh;
+  width: 45vh;
+  height: 80vh;
   border-radius: 5x;
   border: 0.5px solid lightseagreen;
 }
@@ -29,7 +30,7 @@ button {
   padding: 10px;
   background-color: lightseagreen;
   border: none;
-  width: 60%;
+  width: 40%;
   color: white;
   cursor: pointer;
   border-radius: 5px;

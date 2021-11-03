@@ -1,0 +1,25 @@
+.card {
+  height: 360px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.userImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.postImg {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}

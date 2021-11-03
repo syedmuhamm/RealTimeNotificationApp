@@ -1,5 +1,5 @@
 .navbar {
-  height: 50px;
+  height: 40px;
   background-color: lightseagreen;
   display: flex;
   align-items: center;
@@ -18,11 +18,27 @@
 }
 
 .icon {
-  margin-left: 10px;
+  margin-left: 15px;
   cursor: pointer;
+  position: relative;
 }
 
 .iconImg {
   width: 20px;
   height: 20px;
+}
+
+.counter {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
