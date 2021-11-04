@@ -23,3 +23,24 @@
   height: 260px;
   object-fit: cover;
 }
+
+.interactions {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.cardIcon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.infoIcon {
+  position: absolute;
+  right: 0;
+  width: 12px;
+  height: 12px;
+}
